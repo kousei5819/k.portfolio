@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header {
+    background: #fff;
+    color: #4f4f4f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px,30px,0px,30px
+}
+
+header h1 {
+    padding-left: 50px;
+    font-family: 'Caveat', cursive;
+}
+
+header h1 a {
+    font-family: 'Caveat', cursive;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin-right: 50px;
+
+}
+
+header a {
+    padding-left: 0%;
+    color: #4f4f4f;
+    text-decoration: none;
+    gap: 6px 6px;
+    font-family: 'REM', sans-serif;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding-left: 0%;
+
+}
+
+/* ーーーーーーーーーーーーー
+フッターについて
+ーーーーーーーーーーーーーー */
+.footer02 {
+    color: #808080;
+    background: #e5e5e5;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer02 a {
+    color: #808080;
+    text-decoration: none;
+}
+
+.footer02 a:hover {
+    text-decoration: underline;
+}
+
+.footer02 .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer02 .menu li {
+    margin: 0;
+    padding: 0 20px;
+}
+
+.footer02 .copyright {
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+a {
+    text-decoration: none;
+}

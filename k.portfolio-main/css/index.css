@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.mainv h1 {
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 200px;
+    font-size: 75px;
+    font-family: 'Caveat', cursive;
+}
+
+
+/* ーーーーーーーーーーーー
+aboutについて
+ーーーーーーーーーーーー */
+
+.about {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.img {
+    width: 230px;
+    margin-right: 15rem;
+}
+
+.img>img {
+    width: 100%;
+    margin-left: 50%;
+}
+
+.about_title h1 {
+    text-align: center;
+    font-size: 32px;
+    padding: 5%;
+    color: #4f4f4f;
+    margin-top: 120px;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+
+.content .text {
+    max-width: 42px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ーーーーーーーーーーーー
+contactについて
+ーーーーーーーーーーーー */
+
+.contact {
+    margin-top: 120px;
+}
+
+.mail p {
+    text-align: center;
+    padding: 10%;
+    margin-bottom: 50px;
+    /* padding-top: 0%; */
+}
+
+.mail a {
+    color: black;
+}
+
+.contact_title {
+    text-align: center;
+}
+
+.contact_title h1 {
+    margin-top: 120px;
+}
